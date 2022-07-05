@@ -77,7 +77,7 @@ export const People = () => {
         flexDirection: 'row',
       }}
     >
-      {[assets.person02, assets.person03, assets.person04].map(
+      {[assets.person01, assets.person03, assets.person02].map(
         (imgUrl, index) => (
           <ImgCamp imgUrl={imgUrl} index={index} key={`People${index}`} />
         )
