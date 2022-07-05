@@ -56,6 +56,7 @@ export const EthPrice = ({ price }) => {
     </View>
   );
 };
+
 export const ImgCamp = ({ imgUrl, index }) => {
   return (
     <Image

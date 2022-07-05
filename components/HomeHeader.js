@@ -89,7 +89,6 @@ const HomeHeader = ({ onSearch }) => {
             borderRadius: SIZES.small,
             backgroundColor: COLORS.gray,
             padding: SIZES.base,
-            ...SHADOWS.light,
           }}
         >
           <Image
@@ -104,7 +103,7 @@ const HomeHeader = ({ onSearch }) => {
           <TextInput
             placeholder='Search for NFTs'
             onChangeText={onSearch}
-            // value=''
+            defaultValue=''
             style={{
               flex: 1,
             }}
